@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Career Craft - Resume Analysis Results</h1>
+      </header>
+      <main>
+      <div class="container">
+    
+          <div class="result-box">
+            <h2>Extracted Skills:</h2>
+            <ul><span class="code-font">
+              {% for skills in extracted_skills %}
+              <li>{{ skills }}</li>
+              {% endfor %}
+            </span>
+            </ul>
+          </div>
+    
+          <div class="result-box">
+            <h2>Predicted Job Titles:</h2>
+            <ul><span class="code-font">
+              {% for job in predicted_jobs %}
+              <li>{{ job }}</li>
+              {% endfor %}
+            </span>
+            </ul>
+          </div>
+    
+          <div class="result-box">
+            <h2>Enhanced Skills:</h2>
+            <pre><span class="code-font">{{ enhanced_skills }}</span></pre>
+          </div>
+          <a href="{{ url_for('home') }}"><button>Go Back</button></a>
+      </div>
+      </main>
+</body>
+</html>
+

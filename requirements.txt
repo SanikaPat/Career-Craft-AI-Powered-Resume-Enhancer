@@ -1,1 +1,12 @@
 Flask==2.3.2
+numpy
+pandas
+opencv-python
+pytesseract
+pdf2image
+tensorflow
+sentence-transformers
+google-generativeai
+tensorflow
+transformers
+popper-utils
