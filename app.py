@@ -20,8 +20,9 @@ genai.configure(api_key=api_key)
 SkillEnhancerAI = genai.GenerativeModel('gemini-1.5-flash')
 
 # Load datasets
-dataset_path = pd.read_csv("UpdatedResumeDataSet.csv")
-dataset_path1 = pd.read_excel("prompt_dataset.xlsx")
+dataset_path = pd.read_csv("/workspaces/codespaces-flask/Datasets/UpdatedResumeDataSet.csv")
+dataset_path1 = pd.read_excel("/workspaces/codespaces-flask/Datasets/prompt_dataset.xlsx")
+
 
 sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
 
