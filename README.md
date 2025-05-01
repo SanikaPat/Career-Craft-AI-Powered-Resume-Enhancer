@@ -2,9 +2,7 @@
 
 CareerCraft is an AI-powered tool that transforms job search and resume enhancement by converting PDF resumes into editable formats using technologies like OCR, machine learning, and NLP. It uses Deep Learning algorithms to match skill sets and keywords, boosting resume visibility within applicant tracking systems. CareerCraft also uses Large Language Models (LLMs) to generate personalized, data-driven resume enhancement recommendations, ensuring that resumes highlight domain-level skills and comply with industry best practices, enhancing candidate visibility, ranking, and employability.
 
---
-
-#Features
+# Features
 
 1. User Interaction 
     - Input: User uploads a resume in PDF format.
@@ -29,8 +27,6 @@ CareerCraft is an AI-powered tool that transforms job search and resume enhancem
 
 5. Resume Enhancement
     Function: Enhances the resume content based on the extracted skillset by using LLMs.
-
---
 
 # Contributers
 
