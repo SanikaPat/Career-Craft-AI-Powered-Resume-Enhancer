@@ -30,11 +30,9 @@ CareerCraft is an AI-powered tool that transforms job search and resume enhancem
 
 # Contributers
 
-Sanika Rozario (9572)
-
-Sania Almeida (9582)
-
-Sanika Patankar (9563)
+- Sanika Rozario (9572)
+- Sania Almeida (9582)
+- Sanika Patankar (9563)
 
 
 # To run
