@@ -1,45 +1,153 @@
+/* main.css */
+
+/* General Styles */
 body {
+    font-family: "Georgia", serif;
+    background-color: #243642;
+    color: #243642;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
-}
-
-.App {
-    text-align: center;
-}
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-.App-header {
-    background-color: #282c34;
+    padding: 0;
+    display: flex; /* Changed for dashboard layout */
+    flex-direction: column; /* Changed for dashboard layout */
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #387478;
+    color: #fafafa;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Main Content Area */
+  main {
+    display: flex; /*Flex for page content*/
+    flex-direction: column;/*Stack content if no sidebar*/
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /*Main .container area*/
+  main > .container {
+    max-width: 900px;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  /* Optional Sidebar (If you choose to implement) */
+  aside {
+    background-color: #F9FAFA;
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 50px auto 20px auto; /* Reduced margin */
+    width: 90%;
+    box-sizing: border-box;
 
-.App-link {
-    color: #61dafb;
-}
+  }
+  
+  h1 {
+    color: #387478;
+    margin-bottom: 20px; /* Reduced margin */
+    font-size: 2em;
+  }
+  
+  h2 {
+    color: #387478;
+    margin-top: 15px; /* Reduced margin */
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #387478;
+    color: #E2F1E7;
+    padding: 12px 24px; /* Adjusted padding */
+    border: none;
+    border-radius: 6px; /* Adjusted border radius */
+    cursor: pointer;
+    font-size: 1em; /* Adjusted font size */
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #629584;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 15px; /* Reduced margin */
+    padding: 8px; /* Adjusted padding */
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Adjusted border radius */
+    width: 70%;
+  }
+  
+  /* Results Page Specific */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 
-.heart {
-    color: #ff0000;
-}
+  header h1 {
+    color: #243642; /* Dark text color */
+    font-size: 2em;
+    margin: 0;
+    }
 
-.small {
-    font-size: 0.75rem;
-}
+  li {
+    margin-bottom: 4px; /* Reduced margin */
+    font-size: 1em; /* Adjusted font size */
+  }
+  
+  pre {
+    background-color: #F9FAFA;
+    padding: 12px; /* Adjusted padding */
+    border: 1px solid #ddd;
+    border-radius: 6px; /* Adjusted border radius */
+    text-align: left;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  pre, ul li {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  /* Specific to result-box inside container */
+  .container .result-box {
+    text-align: left;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* or any other background color you prefer */
+  }
+  
+  .container .result-box h2 {
+    color: #387478;
+    margin-bottom: 10px;
+  }
+  
+  .container .result-box ul {
+    padding-left: 20px; /* Add some indentation for the list */
+  }
+  
+  .container .result-box ul li {
+    margin-bottom: 5px;
+  }
