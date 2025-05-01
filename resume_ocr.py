@@ -7,6 +7,7 @@ import pandas as pd
 from pdf2image import convert_from_path
 
 # Load skills dataset
+
 SKILLS_DATASET_PATH = "/workspaces/codespaces-flask/Datasets/skills_dataset.xlsx"
 
 def load_skills():

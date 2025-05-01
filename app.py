@@ -23,6 +23,7 @@ SkillEnhancerAI = genai.GenerativeModel('gemini-1.5-flash')
 dataset_path = pd.read_csv("/workspaces/codespaces-flask/Datasets/UpdatedResumeDataSet.csv")
 dataset_path1 = pd.read_excel("/workspaces/codespaces-flask/Datasets/prompt_dataset.xlsx")
 
+
 sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def predict_top_3_jobs(extracted_skills):
