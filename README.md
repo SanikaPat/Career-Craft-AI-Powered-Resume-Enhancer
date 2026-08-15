@@ -28,6 +28,15 @@ CareerCraft is an AI-powered tool that transforms job search and resume enhancem
 5. Resume Enhancement
     Function: Enhances the resume content based on the extracted skillset by using LLMs.
 
+
+Comparitive studies of the models:
+
+<img width="827" height="286" alt="Screenshot 2026-08-14 at 8 18 26 PM" src="https://github.com/user-attachments/assets/6af6edc7-346b-4793-863f-16924724ce9a" />
+
+<img width="508" height="730" alt="Screenshot 2026-08-14 at 8 16 17 PM" src="https://github.com/user-attachments/assets/580b4af8-0eef-48da-8db1-0dcb968085d0" />
+
+This is the published research paper : https://link.springer.com/chapter/10.1007/978-3-032-13806-4_2 
+
 # Contributers
 
 - Sanika Rozario (9572)
